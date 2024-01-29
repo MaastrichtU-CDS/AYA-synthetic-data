@@ -1,0 +1,86 @@
+{
+    "Pre-processing": {
+        "General_information": {
+            "format": "single_table",
+            "identifier": "",
+            "codebook_variable_column": 0,
+            "missing_value": "?",
+            "boolean_triggers": [],
+            "boolean_corrections": [
+                "Recipientgender",
+                "Stemcellsource",
+                "Donorage35",
+                "IIIV",
+                "Gendermatch",
+                "RecipientRh",
+                "ABOmatch",
+                "DonorCMV",
+                "RecipientCMV",
+                "Riskgroup",
+                "Txpostrelapse",
+                "Diseasegroup",
+                "HLAmismatch",
+                "Recipientage10",
+                "Relapse",
+                "aGvHDIIIIV",
+                "extcGvHD",
+                "survival_status"
+            ],
+            "categorical_variables": [],
+            "categorical_corrections": [
+                "DonorABO",
+                "RecipientABO",
+                "CMVstatus",
+                "Disease",
+                "HLAmatch",
+                "Antigen",
+                "Alel",
+                "HLAgrI",
+                "Recipientageint"
+            ],
+            "float_triggers": [],
+            "float_corrections": [
+                "CD34kgx10d6",
+                "CD3dCD34",
+                "CD3dkgx10d8",
+                "Rbodymass"
+            ],
+            "integer_triggers": [],
+            "integer_corrections": [
+                "Donorage",
+                "Recipientage",
+                "ANCrecovery",
+                "PLTrecovery",
+                "time_to_aGvHD_III_IV",
+                "survival_time"
+            ],
+            "string_triggers": [],
+            "string_corrections": []
+        },
+        "Settings": {
+            "harmonise_booleans": "False",
+            "find_codebook_discrepancies": "True",
+            "recode_categories": [
+                "Disease"
+            ],
+            "remove_free_text": "False",
+            "remove_identification": "False",
+            "remove_in_column_string": {},
+            "remove_high_percentage_missing": [],
+            "variables_to_keep": []
+        }
+    },
+    "Evaluation": {
+        "formula_logistic_regression": "",
+        "variables_to_plot": [],
+        "variables_nickname": {},
+        "known_variables": [
+            "Recipientgender",
+            "Stemcellsource"
+        ],
+        "sensitive_variables": [
+            "Donorage"
+        ],
+        "graph_file_extension": ".eps"
+    }
+}
