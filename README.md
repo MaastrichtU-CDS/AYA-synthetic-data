@@ -32,8 +32,7 @@ through:
 
 **How was this work funded?**
 
-This work and the associated scientific publication were funded through EU Horizon 2021 project The STRONG-AYA
-Initiative (DOI: 10.3030/101057482)
+This work and the associated scientific publication were funded through EU Horizon 2021 project The STRONG-AYA Initiative (DOI: 10.3030/101057482)
 
 **What are the main libraries that this research code relied on?**
 

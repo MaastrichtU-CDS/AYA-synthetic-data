@@ -8,9 +8,8 @@ import warnings
 import numpy as np
 import pandas as pd
 
-# DP-CGAN was built in a different SDV version and should only be imported when used
-# from dp_cgans import DP_CGAN
-from sdv.lite import TabularPreset
+from dp_cgans import DP_CGAN
+# from sdv.lite import TabularPreset
 
 # private modules
 from src import data_processing_general, file_handling
@@ -718,10 +717,9 @@ def _dp_cgan_initiate(table_metadata, epochs, batch_size, log_frequency, embeddi
     if private is None:
         private = False
 
-    return None
-    # DP-CGAN was built in a different SDV version and should only be imported when used
-    """return DP_CGAN(table_metadata=table_metadata, epochs=epochs, batch_size=batch_size,
+    return DP_CGAN(table_metadata=table_metadata, epochs=epochs, batch_size=batch_size,
                    log_frequency=log_frequency, embedding_dim=embedding_dim, generator_dim=generator_dim,
                    discriminator_dim=discriminator_dim, generator_lr=generator_lr, generator_decay=generator_decay,
                    discriminator_lr=discriminator_lr, discriminator_decay=discriminator_decay,
-                   discriminator_steps=discriminator_steps, verbose=verbose, cuda=cuda, private=private)"""
+                   discriminator_steps=discriminator_steps, verbose=verbose, cuda=cuda, private=private)
+
