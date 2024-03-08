@@ -1,4 +1,4 @@
-# AYA-synthetic-data
+# strong-aya-synthetic-data
 
 **What does this repository represent?**
 
@@ -8,7 +8,7 @@ The code in this repository was specifically designed to investigate the effects
 variation in input (training data) and output (produced synthetic data) sample size on synthetic data veracity, privacy
 concealment, and utility.
 _A more extensive description of the methodology that this repository represents can be found in the associated
-scientific publication: currently as preprint on MedRxiv; https://doi.org/10.1101/2024.03.04.24303526_
+scientific publication:_
 
 **Where have the contents of this repository been used and reported?**
 
@@ -24,7 +24,7 @@ However, certain components such as _data_preprocessing.py_, _evaluation_visuali
 the utility assessment in _evaluation_metric.py_ were specifically designed for the aforementioned dataset and
 publication.
 
-**How are the code and scripts in this repository to be used?**
+**How are the code and scripts in this repository to be used**
 
 There is a worked-out example provided in the _example_exercise.ipynb_ Jupyter notebook.
 This example makes use of a public dataset on paediatric bone marrow transplantation developed by ... that is available
@@ -32,9 +32,8 @@ through:
 
 **How was this work funded?**
 
-This work and the associated scientific publication were predominantly
-supported by the European Union’s Horizon 2020 research and innovation programme through _The STRONG-AYA Initiative_
-(Grant agreement ID: 101057482).
+This work and the associated scientific publication were funded through EU Horizon 2021 project The STRONG-AYA
+Initiative (DOI: 10.3030/101057482)
 
 **What are the main libraries that this research code relied on?**
 
@@ -42,7 +41,7 @@ The synthetic data was generated using
 
 * _Synthetic Data Vault_ (SDV) (https://github.com/sdv-dev/SDV), and
 * _Differentially Private - Conditional Generative Adversarial Networks_ (
-DP-CGAN) (https://github.com/sunchang0124/dp_cgans).
+  DP-CGAN) (https://github.com/sunchang0124/dp_cgans).
 
 The evaluations were performed using:
 
