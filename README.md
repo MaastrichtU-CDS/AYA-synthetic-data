@@ -8,7 +8,7 @@ The code in this repository was specifically designed to investigate the effects
 variation in input (training data) and output (produced synthetic data) sample size on synthetic data veracity, privacy
 concealment, and utility.
 _A more extensive description of the methodology that this repository represents can be found in the associated
-scientific publication: currently as preprint on MedRxiv; https://doi.org/10.1101/2024.03.04.24303526_
+scientific publication: https://doi.org/10.1200/CCI.24.00056_
 
 **Where have the contents of this repository been used and reported?**
 
